@@ -44,7 +44,7 @@ fun MainScreen(viewModel: MainViewModel) {
                 BottomNavigationItem(
                     selected = currentScreen == "graph",
                     onClick = { currentScreen = "graph" },
-                    icon = { Icon(Icons.Default.Sh, contentDescription = "Графики") },
+                    icon = { Icon(Icons.Default.ShowCharts, contentDescription = "Графики") },
                     label = { Text("Графики") }
                 )
             }
